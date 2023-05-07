@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #FDF9F5;
+  color: #A38F8B;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+}
+
+main {
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book img {
+  max-width: 100%;
+}
+
+.book h3 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.personal-collection,
+.suggestion {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.personal-collection p,
+.suggestion p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.suggestion form {
+  display: flex;
+  justify-content: center;
+}
+
+.suggestion input {
+  border: 1px solid #A38F8B;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #A38F8B;
+  background-color: #FDF9F5;
+}
+
+.suggestion button {
+  border: 1px solid #A38F8B;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #FDF9F5;
+  background-color: #A38F8B;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.suggestion button:hover {
+  color: #A38F8B;
+  background-color: #FDF9F5;
+}
