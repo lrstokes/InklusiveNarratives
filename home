@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Inklusive Narratives</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="https://lh3.googleusercontent.com/AlRNM686JB2zgsbq2oLzZneX2TOLL4yWOH_pXvvnhWaCKMdI-dVXpjrpW3H-9QHICwHdCnJjSq46msMc-NeU17IU_mly0lzZHNzomdpyI1jUpe-25VGQCsGggjY-6BbcmXQxi6DC9ZhT40LhOT3Gm5mqIn6qvGHCQyFZGnlI34vVFAwOQgU78m1auByuDjfZukffENwQRmNOrA5sTqefeylpPkz7YGhGuOQJwV6SW8FPuLJMZNrzwmjyEzHA_kmpu7fxBS7FGw1aHvHu6kiNc4-olqgFYAB4ZEZiQESZdbWiJfzD35zqoYUo-HQ5VVPv8jEn3BtusjCutkfu8KSMYfJGAVCCSndwf1mqNlGgCklrHQ-JiduRWhom2xBw73xZX_sYkOdYBNQGfU72Et6ZyB8wzWhIuforJ9BHmlwf5gshySwei2mEOSDHhOa5Rm5VbfzL4FgAU4snF28_MA_9q5awZAHrvR2GPs8MT5oxh7xKBtuELJg2nzwfEEbQofbmP5LP7_8-ZpYDYX5PjweYww10LqSz0vPUw7-xhOwN3Kv7mZjKqxQKxhxcfwdIwRauChBHXhsAcKw_oRsZsF5WthBB-O-1xz8zQcOAvmjU5ATaZ7Wfm7L20FYxWxNsMxqRG7YVNVUSDvd4do5ZCCw-ySsnWbB9o3KVgqM6HRUUO1hYJ0C1250ZVZbJ_JBRMvsNf8JxHg37hNMRkmvMlaxhURra-ftut8Rj7fnJjweIuGsbshNghAnFDusQ1h4s885qdZSUJkWSBm93bWqpS0An4tu09Yj7DprJrCwhhn8SO6VzF6wfGqVfHC94oEPbcVJCcxt1NuHwS6NGMduC7wXD4YHmpPTVEe6uFedcOF9np5U3QaYUCnSWXkx7Hzzhv176c6NwYFj83Je--oenGNea-PtNnliEyj0CKFqhdL04FLSU0tCcRlXi0dJ1EBwYl_mJL_05g__th91HB-ub5l6YfMj6o7W3v55QnWnQ94ogerAZvHTZKqXjOrA1bHO71cnX0H19suw5dJJv8pO7yJrsWiKhfBPGqDCvxYKpIEn0sTUHm6HacdsSeyG6lxs=w500-h500-s-no?authuser=0" alt="Inklusive Narratives Logo">
+  </header>
+
+  <main>
+    <section class="featured-books">
+      <h2>Featured Books</h2>
+      <div class="book-grid">
+        <!-- Book 1 -->
+        <div class="book">
+          <img src="https://m.media-amazon.com/images/I/915clebrXhL._AC_UF1000,1000_QL80_.jpg" alt="Our Voices, Our Histories">
+          <h3>Our Voices, Our Histories</h3>
+          <p>by Shirley Hune and Gail M. Nomura</p>
+        </div>
+        <!-- Book 2 -->
+        <div class="book">
+          <img src="https://m.media-amazon.com/images/I/81-rWvLyz2L._AC_UF1000,1000_QL80_.jpg" alt="Rest Is Resistance">
+          <h3>Rest Is Resistance</h3>
+          <p>by Tricia Hersey</p>
+        </div>
+        <!-- Book 3 -->
+        <div class="book">
+          <img src="https://m.media-amazon.com/images/I/31RoSVrK9WL._AC_UF1000,1000_QL80_.jpg" alt="Young Lions">
+          <h3>Young Lions</h3>
+          <p>by Leah Garrett</p>
+        </div>
+        <!-- Book 4 -->
+        <div class="book">
+          <img src="https://m.media-amazon.com/images/I/51IrASafHeL._AC_UF1000,1000_QL80_.jpg" alt="The life of Stormé DeLarverie">
+          <h3>The life of Stormé DeLarverie</h3>
+          <p>by Jennifer Hopkins</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="personal-collection">
+      <h2>Personal Collection</h2>
+      <p>Found something you like? Save it to your collection!</p>
+    </section>
+
+    <section class="suggestion">
+      <h2>Suggestion</h2>
+      <p>Give us a few keywords and we’ll suggest something you’ll love!</p>
+      <form>
+        <input type="text" placeholder="Enter keywords">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
